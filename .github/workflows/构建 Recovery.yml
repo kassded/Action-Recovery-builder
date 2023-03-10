@@ -14,7 +14,7 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/momo54181/android_device_gionee_GIONEE_BBL7516A'
+        default: 'https://github.com/kassded/android_device_tcl_t982_ar31a8'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
@@ -22,7 +22,7 @@ on:
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/gionee/GIONEE_BBL7516A'
+        default: 'device/tcl/t982_ar31a8'
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (如果没有共同树，留空)'
         required: false
@@ -32,11 +32,11 @@ on:
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'GIONEE_BBL7516A'
+        default: 't982_ar31a8'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'twrp_I003D'
+        default: 'omni_t982_ar31a8'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
