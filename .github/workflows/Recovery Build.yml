@@ -1,42 +1,42 @@
-name: ¹¹½¨ Recovery
+name: æ„å»º Recovery
 
 on:
   workflow_dispatch:
     inputs:
       MANIFEST_URL:
-        description: 'MANIFEST_URL (Èç¹ûÏëÊ¹ÓÃSSHÃÜÔ¿£¬ÇëÊ¹ÓÃ git@github.com:XXXXX)£¬°²×¿10ÒÔÉÏÉè±¸Ê÷£ºhttps://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp'
+        description: 'MANIFEST_URL (å¦‚æœæƒ³ä½¿ç”¨SSHå¯†é’¥ï¼Œè¯·ä½¿ç”¨ git@github.com:XXXXX)ï¼Œå®‰å“10ä»¥ä¸Šè®¾å¤‡æ ‘ï¼šhttps://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp'
         required: true
-        default: 'https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni'
+        default: 'https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp'
       MANIFEST_BRANCH:
         description: 'MANIFEST_BRANCH'
         required: true
-        default: 'twrp-7.1'
+        default: 'twrp-11'
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/momo54181/android_device_gionee_GIONEE_BBL7516A'
+        default: 'https://github.com/kassded/android_device_tcl_t982_ar31a8'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'android-7.1'
+        default: 'android-11'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/gionee/GIONEE_BBL7516A'
+        default: 'device/tcl/t982_ar31a8'
       COMMON_TREE_URL:
-        description: 'COMMON_TREE_URL (Èç¹ûÃ»ÓĞÍ¨ÓÃÉè±¸Ê÷£¬ÇëÁô¿Õ)'
+        description: 'COMMON_TREE_URL (å¦‚æœæ²¡æœ‰é€šç”¨è®¾å¤‡æ ‘ï¼Œè¯·ç•™ç©º)'
         required: false
       COMMON_PATH:
-        description: 'COMMON_PATH (Èç¹ûÃ»ÓĞÍ¨ÓÃÉè±¸Ê÷£¬ÇëÁô¿Õ)'
+        description: 'COMMON_PATH (å¦‚æœæ²¡æœ‰é€šç”¨è®¾å¤‡æ ‘ï¼Œè¯·ç•™ç©º)'
         required: false
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'GIONEE_BBL7516A'
+        default: 't982_ar31a8'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'twrp_I003D'
+        default: 'omni_t982_ar31a8'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
