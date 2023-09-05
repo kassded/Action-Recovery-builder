@@ -36,7 +36,7 @@ on:
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'omni_t982_ar31a8'
+        default: 'twrp_t982_ar31a8'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
