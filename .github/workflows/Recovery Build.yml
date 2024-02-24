@@ -151,6 +151,10 @@ jobs:
         lunch ${{ github.event.inputs.MAKEFILE_NAME }}-eng && make clean && make ${{ github.event.inputs.BUILD_TARGET }}image -j$(nproc --all)
       working-directory: ${{ steps.pwd.outputs.workspace-folder }}
 
+    - name: 文件
+      run: |
+        ls
+        
     - name: Upload to Release
       uses: softprops/action-gh-release@v1
       with:
