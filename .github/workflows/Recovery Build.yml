@@ -22,7 +22,7 @@ on:
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/tcl/t982_ar31a'
+        default: 'device/tcl/t982_ar31a8'
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
         required: false
@@ -32,11 +32,11 @@ on:
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 't982_ar31a'
+        default: 't982_ar31a8'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'twrp_t982_ar31a'
+        default: 'twrp_t982_ar31a8'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
